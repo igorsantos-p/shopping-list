@@ -2,7 +2,6 @@
     max-width: 592px;
     width: 100%;
     position: fixed;
-    bottom: 0;
     bottom: .5rem;
     left: 50%;
     transform: translateX(-50%);
