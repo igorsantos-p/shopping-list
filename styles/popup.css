@@ -1,6 +1,6 @@
 #popup {
-    max-width: 592px;
-    width: 100%;
+    max-width: inherit;
+    width: calc(100% - 1rem);
     position: fixed;
     bottom: .5rem;
     left: 50%;

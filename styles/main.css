@@ -1,8 +1,5 @@
 main {
-  padding: 1rem;
-
   header {
-    padding-inline: 0.5rem;
 
     a {
       margin-top: 3.875rem;
@@ -13,7 +10,6 @@ main {
   }
 
   form {
-    padding-inline: 0.5rem;
     margin-top: 2.75rem;
     display: flex;
     gap: 1rem;
@@ -25,7 +21,6 @@ main {
 
   #list {
     margin-top: 2.5rem;
-    padding-inline: 0.5rem;
     max-height: calc(100dvh - 24rem);
     overflow-y: auto;
 
