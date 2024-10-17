@@ -1,0 +1,22 @@
+#popup {
+    display: none;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem;
+    margin-top: 2rem;
+    background: var(--danger);
+    color: var(--white);
+    border-radius: 0.75rem;
+
+    span {
+      flex: 1;
+      font: 600 1rem/1.25rem 'Inter', sans-serif;
+    }
+
+    button {
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      line-height: 0;
+    }
+  }

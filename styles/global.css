@@ -18,6 +18,7 @@
   --content-tertiary: #9ca3af;
 }
 
+
 body {
   font: 500 1rem/1.25rem 'Inter', sans-serif;
   background-color: var(--bg-primary);

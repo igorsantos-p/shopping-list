@@ -26,7 +26,7 @@ main {
   #list {
     margin-top: 2.5rem;
     padding-inline: 0.5rem;
-    max-height: calc(100dvh - 368px);
+    max-height: calc(100dvh - 24rem);
     overflow-y: auto;
 
     .item {
@@ -58,28 +58,6 @@ main {
     }
   }
 
-  #popup {
-    display: none;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.75rem;
-    margin-top: 2rem;
-    background: var(--danger);
-    color: var(--white);
-    border-radius: 0.75rem;
-
-    span {
-      flex: 1;
-      font: 600 1rem/1.25rem 'Inter', sans-serif;
-    }
-
-    button {
-      border: none;
-      background: transparent;
-      cursor: pointer;
-      line-height: 0;
-    }
-  }
 }
 
 @media (width < 425px) {
