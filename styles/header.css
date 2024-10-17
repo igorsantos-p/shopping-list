@@ -1,0 +1,13 @@
+body > header {
+  padding-top: 1.625rem;
+  display: flex;
+  justify-content: center;
+}
+
+@media (width < 425px) {
+  body > header {
+    img {
+      display: none;
+    }
+  }
+}

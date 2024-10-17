@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+  --bg-primary: #f4f5fb;
+  --bg-secondary: var(--white);
+  --brand: #ca3884;
+  --brand-hover: #a52c6b;
+  --danger: #c93847;
+  --border-primary: #d1d5db;
+  --border-secondary: #b9c2d0;
+  --content-primary: #080b12;
+  --content-secondary: #374151;
+  --content-tertiary: #9ca3af;
+}
+
+body {
+  font: 500 1rem/1.25rem 'Inter', sans-serif;
+  background-color: var(--bg-primary);
+}
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+a {
+  text-decoration: none;
+  font: 500 0.875rem/1rem 'Inter', sans-serif;
+  color: var(--brand);
+}
+
+button[type='submit'] {
+  font: 600 1rem/1.25rem 'Inter', sans-serif;
+  color: var(--white);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+  background: var(--brand);
+  cursor: pointer;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background: var(--brand-hover);
+  }
+}
+
+input:not(input[type='checkbox']) {
+  width: 100%;
+  font: 500 1rem/1.25rem 'Inter', sans-serif;
+  border: none;
+  outline: 2px solid var(--border-primary);
+  padding: 0.75rem 1.125rem;
+  border-radius: 0.75rem;
+  color: var(--content-primary);
+
+  &::placeholder {
+    color: var(--content-tertiary);
+  }
+
+  &:hover {
+    outline-color: var(--border-secondary);
+  }
+
+  &:focus {
+    outline-color: var(--brand);
+  }
+}
+
+input[type='checkbox'] {
+  appearance: none;
+  width: 1rem;
+  height: 1rem;
+  background: url('../assets/icons/check-normal.svg') no-repeat center;
+  cursor: pointer;
+
+  &:hover {
+    background: url('../assets/icons/check-hover.svg') no-repeat center;
+  }
+
+  &:checked {
+    background: url('../assets/icons/checked.svg') no-repeat center;
+  }
+}
+
+.container {
+  max-width: 40rem;
+  width: 100%;
+  margin-inline: auto;
+}
+
+*::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 2px;
+  background-color: #F4F5FB;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #FFFFFF;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #ECF6F8;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: #CA3884;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #A52C6B;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #A52C6B;
+}
